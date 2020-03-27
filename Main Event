@@ -1,0 +1,64 @@
+{
+  "name": "MessageFilter",
+  "temp": "sentmessage",
+  "event-type": "2",
+  "_id": "sfctg",
+  "actions": [
+    {
+      "comment": "You still need to configure the \"Jump To Action\" action",
+      "color": "#80ffff",
+      "name": "Comment"
+    },
+    {
+      "comment": "in all \"Check Variable\" actions so that messages",
+      "color": "#80ffff",
+      "name": "Comment"
+    },
+    {
+      "comment": "will be deleted if they equals or includes the filtered word.",
+      "color": "#80ffff",
+      "name": "Comment"
+    },
+    {
+      "storage": "1",
+      "varName": "sentmessage",
+      "comparison": "1",
+      "value": "example",
+      "iftrue": "2",
+      "iftrueVal": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "sentmessage",
+      "comparison": "1",
+      "value": "example",
+      "iftrue": "2",
+      "iftrueVal": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "sentmessage",
+      "comparison": "1",
+      "value": "example",
+      "iftrue": "2",
+      "iftrueVal": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "storage": "1",
+      "varName": "sentmessage",
+      "name": "Delete Message"
+    }
+  ]
+}
