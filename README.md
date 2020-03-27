@@ -1,4 +1,4 @@
-# DBM-Message-Filter
+# DBM Message Filter
 RAW DATA. REQUIRES MODS!!
 
 # Notice
